@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewData["Title"] = "Confirm";
+}
+
+<h1>Confirm</h1>
+<div >
+    <h2 >Đăng ký thành công!</h2>
+    <p class="fs-5">Ngươì đăng ký sự kiện:@ViewData["name"]</p>
+    <a class="btn btn-secondary" href="/Event/Index">Quay lại Trang chủ</a>
+</div>
+
+@await Html.PartialAsync("_EventFooter")
